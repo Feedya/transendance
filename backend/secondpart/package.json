@@ -1,0 +1,29 @@
+{
+    "name": "memory_game",
+    "vesion": "0.0.0",
+    "description": "jeux de memory en ligne, 1v1",
+    "type": "module",
+    "contributors": [
+        {
+            "name": "fedor",
+            "role": "architect"
+        },
+        {
+            "name": "douglas",
+            "role": "chepa"
+        }
+    ],
+    "dependencies": {
+        "cors": "~2.8.6",
+        "dotenv": "~18.0.8",
+        "express": "~5.3.0",
+        "http": "~0.0.1-security",
+        "path": "~0.12.7",
+        "socket.io": "~4.8.4",
+        "socket.io-client": "^4.8.4"
+    },
+    "scripts": {
+        "start": "src/index.js",
+        "dev": "node --watch src/index.js"
+    }
+}
